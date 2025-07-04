@@ -9,7 +9,7 @@ import Loginpage from './pages/Loginpage'
   return (
     <>
     <Routes>
-     <Route path='/signup-page' element={ <Signup/>}/>
+     <Route path='/' element={ <Signup/>}/>
      <Route path='/login' element={ <Loginpage/>}/>
     </Routes>
     </>
